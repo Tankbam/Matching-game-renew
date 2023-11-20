@@ -1,0 +1,109 @@
+body {
+  background-color: orange;
+  text-align: center;
+}
+
+p {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 25px;
+}
+
+.imagecontainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+img {
+  width: 70%;
+  height: 70%;
+}
+
+h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #06bc06;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: black;
+  }
+
+  h1 {
+    font-size: 24px;
+    color: orange;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: bolder;
+    color: green;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {}
+
+  h1 {
+    font-size: 32px;
+    background-color: greenyellow;
+    text-color: green;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1025px) {
+  body {
+    
+  }
+
+  h1 {
+    font-size: 48px;
+    background-color: greenyellow;
+    color: orange;
+  }
+
+  p {
+    font-size: 20px;
+
+  }
+}
+
+#game-card-img {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+/* rem is the Font size of the root element. */
+.cell {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#button {
+  text-align: center;
+  background-color: #d4660c;
+  color: white;
+  padding: 15px 32px;
+  font-size: 25px;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+.container {
+  text-align: center;
+}
+
+#ins #score {
+  text-align: left;
+  font-size: 20px;
+}
